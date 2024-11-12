@@ -1,0 +1,459 @@
+﻿<html>
+<head>
+    <title>Защита на правата на хората с аутизъм в България</title>
+    <style>
+		html.busy, html.busy * {
+			cursor: wait !important;
+		}
+
+		body {
+			font-family: Tahoma, Geneva, sans-serif;
+			font-size: 14px;
+			line-height: 20px;
+			color: #000;
+			margin: 0;
+			padding: 0;
+			border: 0;
+			outline: 0;
+			padding-bottom: 22px;
+		}
+
+		ul {
+			list-style: none;
+		}
+
+		.menus ul {
+			height: 40px;
+			padding: 0px;
+			margin-bottom: 0px;
+			padding-bottom: 1px;
+		}
+
+		.menus li {
+			background: #ffffff; /* Old browsers */
+			/* IE9 SVG, needs conditional override of 'filter' to 'none' */
+			background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2ZmZmZmZiIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiNjYmViZmYiIHN0b3Atb3BhY2l0eT0iMSIvPgogICAgPHN0b3Agb2Zmc2V0PSIxMDAlIiBzdG9wLWNvbG9yPSIjY2FlM2ZmIiBzdG9wLW9wYWNpdHk9IjEiLz4KICA8L2xpbmVhckdyYWRpZW50PgogIDxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxIiBoZWlnaHQ9IjEiIGZpbGw9InVybCgjZ3JhZC11Y2dnLWdlbmVyYXRlZCkiIC8+Cjwvc3ZnPg==);
+			background: -moz-linear-gradient(top, #ffffff 0%, #cbebff 100%, #cae3ff 100%); /* FF3.6+ */
+			background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffffff), color-stop(100%,#cbebff), color-stop(100%,#cae3ff)); /* Chrome,Safari4+ */
+			background: -webkit-linear-gradient(top, #ffffff 0%,#cbebff 100%,#cae3ff 100%); /* Chrome10+,Safari5.1+ */
+			background: -o-linear-gradient(top, #ffffff 0%,#cbebff 100%,#cae3ff 100%); /* Opera 11.10+ */
+			background: -ms-linear-gradient(top, #ffffff 0%,#cbebff 100%,#cae3ff 100%); /* IE10+ */
+			background: linear-gradient(to bottom, #ffffff 0%,#cbebff 100%,#cae3ff 100%); /* W3C */
+			filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#cae3ff',GradientType=0 ); /* IE6-8 */
+			margin: 0;
+			display: list-item;
+			float: left;
+			border-right: 1px #cae3ff solid;
+			font-size: larger;
+			cursor: pointer;
+		}
+
+		.menus li:nth-child(1) {
+			border-radius: 5px 0px 0px 0px;
+		}
+
+		.menus li:nth-child(4) {
+			border-radius: 0px 5px 0px 0px;
+		}
+
+		.menus li:hover {
+			background: #236bba; /* Old browsers */
+			/* IE9 SVG, needs conditional override of 'filter' to 'none' */
+			background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzIzNmJiYSIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjAlIiBzdG9wLWNvbG9yPSIjY2JlYmZmIiBzdG9wLW9wYWNpdHk9IjEiLz4KICAgIDxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iIzQzODdkMiIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgPC9saW5lYXJHcmFkaWVudD4KICA8cmVjdCB4PSIwIiB5PSIwIiB3aWR0aD0iMSIgaGVpZ2h0PSIxIiBmaWxsPSJ1cmwoI2dyYWQtdWNnZy1nZW5lcmF0ZWQpIiAvPgo8L3N2Zz4=);
+			background: -moz-linear-gradient(top, #236bba 0%, #cbebff 0%, #4387d2 100%); /* FF3.6+ */
+			background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#236bba), color-stop(0%,#cbebff), color-stop(100%,#4387d2)); /* Chrome,Safari4+ */
+			background: -webkit-linear-gradient(top, #236bba 0%,#cbebff 0%,#4387d2 100%); /* Chrome10+,Safari5.1+ */
+			background: -o-linear-gradient(top, #236bba 0%,#cbebff 0%,#4387d2 100%); /* Opera 11.10+ */
+			background: -ms-linear-gradient(top, #236bba 0%,#cbebff 0%,#4387d2 100%); /* IE10+ */
+			background: linear-gradient(to bottom, #236bba 0%,#cbebff 0%,#4387d2 100%); /* W3C */
+			filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#236bba', endColorstr='#4387d2',GradientType=0 ); /* IE6-8 */
+		}
+
+		.menus li:hover a:hover {
+			color: whitesmoke;
+		}
+
+		.menus li a {
+			display: block;
+			height: 40px;
+			padding-left: 15px;
+			padding-right: 15px;
+			line-height: 36px;
+			color: #4083cf;
+		}
+
+		a, a:active, a:hover {
+			color: #cae3ff;
+			text-decoration: none;
+		}
+
+		.content li {
+			padding: 0 0 0 20px;
+			margin: 0 0 7px 0;
+			background: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAAK/INwWK6QAAAAlwSFlzAAAOwwAADsMBx2+oZAAAABh0RVh0U29mdHdhcmUAcGFpbnQubmV0IDQuMC41ZYUyZQAAAVtJREFUOE9j+P//P0UYqyApGKsgKRirICkYqyAMm/ct/2rQsei/TstCTmzyIIxVEIYN2hZ/jZq37b9G9Zz/8mUzsRqCwrGduPK/2cTlf426lvzVa1n4N2Tm5v8T95z97z9x3X/x7Ml/BVMn8CCrB2EUDtDJ/6cduvB/yoHzYI0Tdp/9X7Ji3/+urSf/u7ev/M8e3/OXNbSdH1kPigFAJ4M15y/b8z9r0a7/qfN3/E+Yte1/+pwd/5vXHPlvU7vkP6tvyx9kPSgGaDbOB9p65n/vjlP/O7ec+N+++fj/rHk7gZqP/vdoWfmf1aPpFatDnQGyHhQDFCtm/5POn/pPNHvyP/6UCf8s6xf9b1x9+L97w/L/rG7Nz1nt67WQ1YMwCgcds4Z0fHWuWwrU3PAEqFkdmxoMAWQMdPJXVtfG/6xWdYrY5EEYqyAyZrWsxZmIQBirICkYqyDx+D8DAI930MFFspaxAAAAAElFTkSuQmCC') left 2px no-repeat;
+		}
+
+		.content p {
+			margin: 0 0 15px 0;
+		}
+
+		.banner {
+			background-color: #012547;
+			width: 100%;
+			box-shadow: 0px 3px 15px 0px rgba(1, 37, 71, 0.45);
+		}
+
+		.menus {
+			background-color: #012547;
+			color: whitesmoke;
+			text-align: center;
+		}
+
+		.centered-container {
+			width: 960px;
+			margin: 0 auto;
+			clear: both;
+		}
+
+		.content {
+			text-align: left;
+			position: relative;
+			padding: 10px;
+		}
+
+		.banner-title {
+			display: inline-block;
+			position: relative;
+			bottom: 30px;
+			left: 50;
+			font-family: Helvetica;
+			font-size: larger;
+			color: whitesmoke;
+		}
+
+		h2 {
+			padding: 0px 0px 8px 10px;
+			color: #2d74c2;
+			font-size: 26px;
+			font-weight: normal;
+			border-bottom: 1px solid #2d74c2;
+		}
+
+		input#headline {
+			font-size: x-large;
+			width: 100%;
+		}
+
+		select#articles {
+			width: 100%;
+		}
+
+		/* http://www.w3schools.com/css/css_dropdowns.asp */
+		.dropdown {
+			position: relative;
+			white-space: nowrap;
+		}
+
+		.dropdown-content {
+			text-align: left;
+
+			display: none;
+			position: absolute;
+
+			background: #ffffff; /* Old browsers */
+			/* IE9 SVG, needs conditional override of 'filter' to 'none' */
+			background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2ZmZmZmZiIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiNjYmViZmYiIHN0b3Atb3BhY2l0eT0iMSIvPgogICAgPHN0b3Agb2Zmc2V0PSIxMDAlIiBzdG9wLWNvbG9yPSIjY2FlM2ZmIiBzdG9wLW9wYWNpdHk9IjEiLz4KICA8L2xpbmVhckdyYWRpZW50PgogIDxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxIiBoZWlnaHQ9IjEiIGZpbGw9InVybCgjZ3JhZC11Y2dnLWdlbmVyYXRlZCkiIC8+Cjwvc3ZnPg==);
+			background: -moz-linear-gradient(top, #ffffff 0%, #cbebff 100%, #cae3ff 100%); /* FF3.6+ */
+			background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffffff), color-stop(100%,#cbebff), color-stop(100%,#cae3ff)); /* Chrome,Safari4+ */
+			background: -webkit-linear-gradient(top, #ffffff 0%,#cbebff 100%,#cae3ff 100%); /* Chrome10+,Safari5.1+ */
+			background: -o-linear-gradient(top, #ffffff 0%,#cbebff 100%,#cae3ff 100%); /* Opera 11.10+ */
+			background: -ms-linear-gradient(top, #ffffff 0%,#cbebff 100%,#cae3ff 100%); /* IE10+ */
+			background: linear-gradient(to bottom, #ffffff 0%,#cbebff 100%,#cae3ff 100%); /* W3C */
+			filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#cae3ff',GradientType=0 ); /* IE6-8 */
+			
+			min-width: 100%;
+			overflow: auto;
+			box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+			z-index: 1;
+		}
+
+		.dropdown-content a {
+			color: black;
+			padding: 1px 1px;
+			text-decoration: none;
+			display: block;
+		}
+
+		.dropdown-content a:hover {
+			background: #236bba; /* Old browsers */
+			/* IE9 SVG, needs conditional override of 'filter' to 'none' */
+			background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzIzNmJiYSIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjAlIiBzdG9wLWNvbG9yPSIjY2JlYmZmIiBzdG9wLW9wYWNpdHk9IjEiLz4KICAgIDxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iIzQzODdkMiIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgPC9saW5lYXJHcmFkaWVudD4KICA8cmVjdCB4PSIwIiB5PSIwIiB3aWR0aD0iMSIgaGVpZ2h0PSIxIiBmaWxsPSJ1cmwoI2dyYWQtdWNnZy1nZW5lcmF0ZWQpIiAvPgo8L3N2Zz4=);
+			background: -moz-linear-gradient(top, #236bba 0%, #cbebff 0%, #4387d2 100%); /* FF3.6+ */
+			background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#236bba), color-stop(0%,#cbebff), color-stop(100%,#4387d2)); /* Chrome,Safari4+ */
+			background: -webkit-linear-gradient(top, #236bba 0%,#cbebff 0%,#4387d2 100%); /* Chrome10+,Safari5.1+ */
+			background: -o-linear-gradient(top, #236bba 0%,#cbebff 0%,#4387d2 100%); /* Opera 11.10+ */
+			background: -ms-linear-gradient(top, #236bba 0%,#cbebff 0%,#4387d2 100%); /* IE10+ */
+			background: linear-gradient(to bottom, #236bba 0%,#cbebff 0%,#4387d2 100%); /* W3C */
+			filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#236bba', endColorstr='#4387d2',GradientType=0 ); /* IE6-8 */
+		}
+
+		.dropdown2:hover .dropdown-content { display: block; }
+	</style>
+	<script>
+		window.addEventListener('hashchange', () => {
+		const hash = window.location.hash;
+
+		// Hide all sections
+		const sections = document.querySelectorAll('section');
+		sections.forEach(section => {
+			section.style.display = 'none';
+		});
+
+		// Show the selected section
+		const targetSection = document.getElementById(hash.substring(1));
+		if (targetSection) {
+			targetSection.style.display = 'block';
+		}
+		});
+	</script>
+</head>
+<body>
+	<div class="banner">
+		<div class="centered-container">
+		    <img id="banner-image" src="data:image/png;base64,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" alt="zphab.org"/>
+		    <h1 class="banner-title">
+			Защита на правата<br/>на хората с аутизъм<br/>в България
+			</h1>
+			<div class="menus">
+				<ul>
+					<li class="dropdown dropdown2">
+						<a href="index.html#activity" data-article-id="1">Дейност</a>
+						<div class="dropdown-content">
+							<a href="index.html#activity" data-article-id="1">Дейност</a>
+							<a href="index.html#roles" data-article-id="2">Позиции</a>
+						</div>
+					</li>
+					<li>
+						<div class="dropdown dropdown2">
+						  <a href="index.html#about-us" data-article-id="12" class="dropbtn">За Нас</a>
+						  <div class="dropdown-content">
+							<a href="index.html#about-us" data-article-id="12">Кои сме ние</a>
+							<a href="index.html#mission" data-article-id="13">Мисия</a>
+							<a href="index.html#contacts" data-article-id="16">Контакти</a>
+						  </div>
+						</div>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	<div class="centered-container">
+		<div id="content" class="content">
+			<section id="activity" style="display:none">
+				<p style="text-align: center;"><strong>ПОКАНА<br /></strong><strong>ЗА СВИКВАНЕ НА ОБЩО СЪБРАНИЕ НА ЧЛЕНОВЕТЕ НА&nbsp;<br /></strong><strong>СДРУЖЕНИЕ &bdquo;ЗАЩИТА НА ПРАВАНА НА ХОРАТА С АУТИЗЪМ В БЪЛГАРИЯ&ldquo;</strong></p>
+				<p>Управителният съвет на Сдружение с нестопанска цел &bdquo;Защита на правата на хората с аутизъм в България&rdquo;, на основание чл. 26 от ЗЮЛНЦ и чл. 21 &nbsp;от Устава на Сдружението, свиква извънредно Общо събрание на 01.08.2019 г. от 9.00 ч. в гр. София, &nbsp;в офиса на сдружението (гр. София , ул. Странджа 140, вх. А, ап. 1)&nbsp; при следния дневен ред:&nbsp;<br /><br />&nbsp; &nbsp; &nbsp; 1. Освобождаване на Боряна Бориславова Алексиева от членството ѝ в Управителния съвет на сдружението;<br />&nbsp; &nbsp; &nbsp; 2. Избор на нов член на Управителния съвет на мястото на Боряна Алексиева;<br />&nbsp; &nbsp; &nbsp; 3. Разни;</p>
+				<p>Канят се всички членове на Сдружението.</p>
+				<p>При липса на кворум на основание чл. 22. ал. 2 от Устава на Сдружението и чл. 27 от ЗЮЛНЦ, събранието ще се проведе същия ден в 10:00 ч., на същото място и при същия дневен ред, независимо от броя на присъстващите членове.</p>
+				<p>Председател на Сдружението: Кристина Николаева.<br /><br />01.07.2019 г.</p>
+				<p style="text-align: center;">&nbsp;</p>
+				<p style="text-align: center;">&nbsp;</p>
+				<p style="text-align: center;">&nbsp;</p>
+				<p style="text-align: center;"><strong>ПОКАНА<br /></strong><strong>ЗА СВИКВАНЕ НА ОБЩО СЪБРАНИЕ НА ЧЛЕНОВЕТЕ НА&nbsp;<br /></strong><strong>СДРУЖЕНИЕ &bdquo;ЗАЩИТА НА ПРАВАНА НА ХОРАТА С АУТИЗЪМ В БЪЛГАРИЯ&ldquo;</strong></p>
+				<p>Управителният съвет на Сдружение с нестопанска цел &bdquo;Защита на правата на хората с аутизъм в България&rdquo;, на основание чл. 26 от ЗЮЛНЦ и чл. 21&nbsp; от Устава на сдружението, свиква Общо събрание на 27.06.2019 г. от 10.00 ч. в гр. София, ул. &bdquo;Странджа&ldquo; 140, вх.А, ап. 1 &nbsp;при следния дневен ред:</p>
+				<ol>
+					<li>Отчет за дейността на Сдружението за 2018 г. Доклад на Председателя;</li>
+					<li>Финансов отчет на Сдружението за 2018 година;</li>
+					<li>Разни.</li>
+				</ol>
+				<p>Канят се всички членове на Сдружението. При липса на кворум на основание чл. 22. ал. 2 от Устава на Сдружението и чл. 27 от ЗЮЛНЦ, събранието ще се проведе същия ден в 11:00 ч., на същото място и при същия дневен ред, независимо от броя на присъстващите членове.</p>
+				<p>Председател на Сдружението: Кристина Николаева.</p>
+				<p>27.05.2019 г.</p>
+				<p>&nbsp;&nbsp;&nbsp;</p>
+				<p style="text-align: center;"><strong>ПОКАНА&nbsp;</strong><br /><strong>ЗА СВИКВАНЕ НА РЕДОВНО ЗАСЕДАНИЕ НА УПРАВИТЕЛНИЯ СЪВЕТ&nbsp; НА&nbsp;</strong><br /><strong>СДРУЖЕНИЕ &bdquo;ЗАЩИТА НА ПРАВАТА НА ХОРАТА С АУТИЗЪМ В БЪЛГАРИЯ&ldquo;</strong></p>
+				<p style="text-align: left;"><strong>Уважаеми членове на Управителния съвет,<br /></strong>Съгласно чл. 30 от Устава на сдружението, с настоящата покана свиквам заседание на Управителния съвет на сдружение &bdquo;Защита на правата на хората с аутизъм в България&ldquo;, което ще се проведе на 26.05.2019г в офиса на сдружението (гр. София, ул. &bdquo;Странджа&ldquo; 140 , вх. А , ап.1 от 14:00 при следния дневен ред:<br /><br />1. Решение за свикване на Общо събрание на членовете на сдружение &bdquo;Защита на правата на хората с аутизъм в България&ldquo;;<br />2. Разни.</p>
+				<p>Приканвам всички членове на УС да присъстват на заседанието.</p>
+				<p>&nbsp;17.05.2019 г.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Кристина Николаева&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br />София&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Председател на сдружение &bdquo; Защита на<br />&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; правата на хората с аутизъм в България&ldquo;&nbsp;</p>
+				<p>&nbsp;</p>
+				<p>&nbsp;</p>
+				<p style="text-align: center;"><strong>ПОКАНА<br /></strong><strong>ЗА СВИКВАНЕ НА ОБЩО СЪБРАНИЕ НА ЧЛЕНОВЕТЕ НА&nbsp;<br /></strong><strong>СДРУЖЕНИЕ &bdquo;ЗАЩИТА НА ПРАВАНА НА ХОРАТА С АУТИЗЪМ В БЪЛГАРИЯ&ldquo;</strong></p>
+				<p>Управителният съвет на Сдружение с нестопанска цел &bdquo;Защита на правата на хората с аутизъм в България&rdquo;, на основание чл. 26 от ЗЮЛНЦ и чл. 21&nbsp; от Устава на сдружението, свиква Общо събрание на 31.03.2018 г. от 14.00 ч. в гр. София, ул. &bdquo;Странджа&ldquo; 140, вх.А, ап. 1 &nbsp;при следния дневен ред:</p>
+				<ol>
+					<li>Отчет за дейността на Сдружението за 2017 г. Доклад на Председателя;</li>
+					<li>Финансов отчет на Сдружението за 2017 година;</li>
+					<li>Разни.</li>
+				</ol>
+				<p>Канят се всички членове на Сдружението. При липса на кворум на основание чл. 22. ал. 2 от Устава на Сдружението и чл. 27 от ЗЮЛНЦ, събранието ще се проведе същия ден в 15:00 ч., на същото място и при същия дневен ред, независимо от броя на присъстващите членове.</p>
+				<p>Председател на Сдружението: Кристина Николаева.</p>
+				<p>25.02.2018 г.</p>
+				<p>&nbsp;&nbsp;&nbsp;</p>
+				<p style="text-align: center;">&nbsp;</p>
+				<p style="text-align: center;"><strong>ПОКАНА&nbsp;</strong><br /><strong>ЗА СВИКВАНЕ НА РЕДОВНО ЗАСЕДАНИЕ НА УПРАВИТЕЛНИЯ СЪВЕТ&nbsp; НА&nbsp;</strong><br /><strong>СДРУЖЕНИЕ &bdquo;ЗАЩИТА НА ПРАВАТА НА ХОРАТА С АУТИЗЪМ В БЪЛГАРИЯ&ldquo;</strong></p>
+				<p style="text-align: left;"><strong>Уважаеми членове на Управителния съвет,<br /></strong>Съгласно чл. 30 от Устава на сдружението, с настоящата покана свиквам заседание на Управителния съвет на сдружение &bdquo;Защита на правата на хората с аутизъм в България&ldquo;, което ще се проведе на 17.02.2018г в офиса на сдружението (гр. София, ул. &bdquo;Странджа&ldquo; 140 , вх. А , ап.1 от 14:00 при следния дневен ред:<br /><br />1. Решение за свикване на Общо събрание на членовете на сдружение &bdquo;Защита на правата на хората с аутизъм в България&ldquo;;<br />2. Разни.</p>
+				<p>Приканвам всички членове на УС да присъстват на заседанието.</p>
+				<p>&nbsp;03.02.2018 г.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Кристина Николаева&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br />София&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Председател на сдружение &bdquo; Защита на<br />&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; правата на хората с аутизъм в България&ldquo;&nbsp;</p>
+				<p>&nbsp;&nbsp;</p>
+				<p>&nbsp;</p>
+				<p style="text-align: center;"><strong>ПОКАНА<br /></strong><strong>ЗА СВИКВАНЕ НА ОБЩО СЪБРАНИЕ НА ЧЛЕНОВЕТЕ НА&nbsp;<br /></strong><strong>СДРУЖЕНИЕ &bdquo;ЗАЩИТА НА ПРАВАНА НА ХОРАТА С АУТИЗЪМ В БЪЛГАРИЯ&ldquo;</strong></p>
+				<p>Управителният съвет на Сдружение с нестопанска цел &bdquo;Защита на правата на хората с аутизъм в България&rdquo;, на основание чл. 26 от ЗЮЛНЦ и чл. 21&nbsp; от Устава на сдружението, свиква Общо събрание на&nbsp;01.04.2017 г. от 14.00 ч. в гр. София, ул. &bdquo;Странджа&ldquo; 140, вх.А, ап. 1 &nbsp;при следния дневен ред:</p>
+				<ol>
+					<li>Отчет за дейността на Сдружението за 2016г. Доклад на Председателя;</li>
+					<li>Финансов отчет на Сдружението за 2016&nbsp;година;</li>
+					<li>Разни.</li>
+				</ol>
+				<p>Канят се всички членове на Сдружението. При липса на кворум на основание чл. 22. ал. 2 от Устава на Сдружението и чл. 27 от ЗЮЛНЦ, събранието ще се проведе същия ден в 15:00 ч., на същото място и при същия дневен ред, независимо от броя на присъстващите членове.</p>
+				<p>&nbsp;Председател на Сдружението: Кристина Николаева.</p>
+				<p>27.02.2017&nbsp;г.</p>
+				<p style="text-align: center;">&nbsp;</p>
+				<p style="text-align: center;">&nbsp;</p>
+				<p style="text-align: center;"><strong>ПОКАНА&nbsp;</strong><br /><strong>ЗА СВИКВАНЕ НА РЕДОВНО ЗАСЕДАНИЕ НА УПРАВИТЕЛНИЯ СЪВЕТ НА&nbsp;</strong><br /><strong>СДРУЖЕНИЕ &bdquo;ЗАЩИТА НА ПРАВАТА НА ХОРАТА С АУТИЗЪМ В БЪЛГАРИЯ&ldquo;</strong></p>
+				<p><strong>Уважаеми членове на Управителния съвет,</strong><br />Съгласно чл. 30 от Устава на сдружението, с настоящата покана свиквам заседание на Управителния съвет на сдружение &bdquo;Защита на правата на хората с аутизъм в България&ldquo;, което ще се проведе на 13.02.2017г в офиса на сдружението (гр. София, ул. &bdquo;Странджа&ldquo; 140 , вх. А , ап.1 от 14:00 при следния дневен ред:</p>
+				<p>1. Решение за свикване на Общо събрание на членовете на сдружение &bdquo;Защита на правата на хората с аутизъм в България&ldquo;;<br />2. Разни.<br />Приканвам всички членове на УС да присъстват на заседанието.</p>
+				<p>05.02.2017 г.&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Кристина Николаева&nbsp;<br />София&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Председател на сдружение &bdquo; Защита на<br />&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;</p>
+				<p><strong>&nbsp;</strong>&nbsp;&nbsp;</p>
+				<p style="text-align: center;"><strong>ПОКАНА<br /></strong><strong>ЗА СВИКВАНЕ НА ОБЩО СЪБРАНИЕ НА ЧЛЕНОВЕТЕ НА&nbsp;<br /></strong><strong>СДРУЖЕНИЕ &bdquo;ЗАЩИТА НА ПРАВАНА НА ХОРАТА С АУТИЗЪМ В БЪЛГАРИЯ&ldquo;</strong></p>
+				<p>Управителният съвет на Сдружение с нестопанска цел &bdquo;Защита на правата на хората с аутизъм в България&rdquo;, на основание чл. 26 от ЗЮЛНЦ и чл. 21&nbsp; от Устава на сдружението, свиква Общо събрание на 03.04.2016 г. от 14.00 ч. в гр. София, ул. &bdquo;Странджа&ldquo; 140, вх.А, ап. 1 &nbsp;при следния дневен ред:</p>
+				<ol>
+					<li>Отчет за дейността на Сдружението за 2015г. Доклад на Председателя;</li>
+					<li>Финансов отчет на Сдружението за 2015 година;</li>
+					<li>Разни.</li>
+				</ol>
+				<p>Канят се всички членове на Сдружението. При липса на кворум на основание чл. 22. ал. 2 от Устава на Сдружението и чл. 27 от ЗЮЛНЦ, събранието ще се проведе същия ден в 15:00 ч., на същото място и при същия дневен ред, независимо от броя на присъстващите членове.</p>
+				<p>&nbsp;</p>
+				<p>Председател на Сдружението: Кристина Николаева.</p>
+				<p>02.03.2016 г.</p>
+				<p style="text-align: center;">&nbsp;</p>
+				<p style="text-align: center;"><strong>ПОКАНА </strong><br /><strong>ЗА СВИКВАНЕ НА РЕДОВНО ЗАСЕДАНИЕ НА УПРАВИТЕЛНИЯ СЪВЕТ НА </strong><br /><strong>СДРУЖЕНИЕ &bdquo;ЗАЩИТА НА ПРАВАТА НА ХОРАТА С АУТИЗЪМ В БЪЛГАРИЯ&ldquo;</strong></p>
+				<p><strong>Уважаеми членове на Управителния съвет,</strong><br />Съгласно чл. 30 от Устава на сдружението, с настоящата покана свиквам заседание на Управителния съвет на сдружение &bdquo;Защита на правата на хората с аутизъм в България&ldquo;, което ще се проведе на 17.02.2016г в офиса на сдружението (гр. София, ул. &bdquo;Странджа&ldquo; 140 , вх. А , ап.1 от 14:00 при следния дневен ред:</p>
+				<p>1. Решение за свикване на Общо събрание на членовете на сдружение &bdquo;Защита на правата на хората с аутизъм в България&ldquo;;<br />2. Разни.<br />Приканвам всички членове на УС да присъстват на заседанието.</p>
+				<p>07.02.2016 г.&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Кристина Николаева <br />София&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Председател на сдружение &bdquo; Защита на<br />&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; правата на хората с аутизъм в България&ldquo;</p>
+			</section>
+			<section id="roles" style="display:none">
+				<p>&nbsp;</p>
+				<p style="text-align: center;"><strong>СТАНОВИЩЕ</strong></p>
+				<p style="text-align: center;"><br />&nbsp;<strong>Проект на Система за прием на ученици в първи клас в общинските училища на територията на Столична община</strong></p>
+				<p><strong>Уважаеми г-н Чобанов,</strong></p>
+				<p>Сдружение &bdquo;Защита на правата на хората с аутизъм в България&ldquo; е неправителствена организация&nbsp; с нестопанска цел за осъществяване на дейност в обществена полза. Членовете на сдружението са предимно родители на деца с разстройство от аутистичния спектър и дейността ни изцяло е насочена към защита на правата на хората с аутизъм и други увреждания в България.</p>
+				<p>Ценим усилията Ви за изработването на една <strong>справедлива</strong> и <strong>недискриминационна</strong> система за прием на ученици в първи клас в общинските училища на територията на Столична община. Система,&nbsp; с чиито критерии за прием се гарантира <strong>равнопоставеност на всички кандидати и е </strong>съобразена &nbsp;с <strong>чл. 24</strong> от <strong>Конвенцията за правата на хората с уреждания</strong>. С ратифицирането на конвенцията държавата ни признава правото на образование на децата с увреждания и гаранитира спазването на принципите изброени в т.2,&nbsp; а именно:<strong><br /> <br /> </strong>&bdquo; 2. При реализирането на това право държавите - страни по конвенцията, гарантират, че:</p>
+				<p>&nbsp;а) лица с увреждания не са изключени от системата на общото образование по причина на тяхното увреждане, както <strong>и деца с увреждания не са изключени от системата на безплатното и задължително начално образование или на средното образование по причина на тяхното увреждане;</strong></p>
+				<p>&nbsp;б) хората с увреждания имат достъп до включващо, качествено и безплатно начално образование и до средно образование <strong>равноправно</strong> с всички останали в общността, в която живеят;</p>
+				<p>&nbsp;в) <strong>се предоставят разумни улеснения според изискванията на индивида;</strong></p>
+				<p>&nbsp;г<strong>) хората с увреждания получават нужната им подкрепа в рамките на системата за общо образование с оглед улесняване на тяхното ефективно образование;</strong></p>
+				<p>&nbsp;д) се предоставят <strong>ефективни мерки за индивидуална подкрепа в среда</strong>, способстваща за пълноценното им академично и социално израстване, в съответствие с целите на пълното включване.&ldquo;</p>
+				<p>С тревога отбелязваме, че при определяне на предложените критерии за прием на ученици в първи клас в проекта на системата<strong>, &nbsp;не са взети предвид факти и условия от обективната действителност</strong>. Прилагането на тези критерии в нейния контекст, ще доведат не само до <strong>неспазването</strong> на гореизброените принципи, но и създават възможност за <strong>неблагоприятно въздействие върху цялостното развитие на определена група деца с увреждания. </strong></p>
+				<p>Бихме искали да Ви запознаем тези факти и условия:</p>
+				<ol>
+					<li>С оглед на <strong>по-плавна и нестресова адаптация</strong> към конкретна училищна среда, редица специалисти в областа на психологията и детското развитие <strong>препоръчват </strong>предучилищното образование на деца с увреждания да се провежда в <strong>подготвителни групи към училището,</strong> в което ще продължат и училищното си образование. <br /> </li>
+					<li>Децата с увреждания при навършена възраст <strong>могат да бъдат отложени от обучение в първи клас за две последователни години</strong>. Първата година се отлагат с решение на регионалния екип за подкрепа за личностно развитие на децата и учениците със специални образователни потребности, а втората година &ndash; с решения на Министъра на образованието и науката. В тези случаи, децата продължават образованието си в съответните подготвителни групи. Това са деца с увреждания, приети в подготвителната група на съответното училище <strong>преди влизането в сила на Закона за предучилищно и училищно образование</strong>. Време, в което родителите на деца с увреждания срещаха трудности при намирането на училище на територията на Столична община, склонно да приеме децата им. Това е една от причините към настоящият момент определен брой деца с увреждания да се обучават в подготвителна група в училища, чиито прилежащ район <strong>не включва</strong>&nbsp; техния постоянен/настоящ адрес.<br /> </li>
+					<li>На територията на Столична община има квартали, в които всички&nbsp; училища са <strong>без</strong> разкрита подготвителна група. Това е друга причина към настоящия момент определен брой деца с увреждания да се обучават в подготвителна група в училища, чиито прилежащ район не включва&nbsp; техния постоянен/настоящ адрес. <br /> </li>
+					<li>За съжаление, <strong>единици са училищата на територията на Столична община</strong>, които са готови да отговорят, ако не на всички, то поне на повечето спечифични потребности на деца с увреждания, предоставяйки им &bdquo;<strong>разумни улеснения&ldquo; и&nbsp; &bdquo;ефективни мерки за индивидуална подкрепа в среда&ldquo; </strong>по смисъла на<strong> Конвенцията за правата на хората с увреждания. </strong></li>
+				</ol>
+				<p>&nbsp;</p>
+				<p>Уважаеми г-н Чобанов,</p>
+				<p>Въз основа на гореизброените факти, при така разписаните критерии в проекта на системата за прием на ученици в първи клас се опасяваме, че:</p>
+				<ol>
+					<li>Деца с увреждания, чиито постоянен/настоящ адрес не попада в прилежащия район на училището в което се <strong>обучават вече три или две години години в подготвителна</strong>, тази година <strong>няма да имат шанса</strong> да бъдат приети в първи клас в същото училище. Държим още веднъж да подчертаем, че за периода им на предучилищно обучение в конкретното училище, една голяма част от тези деца са се адаптирали към конкретната училищна среда, изградили са социални контакти и приятелства със съучениците си, изградили са доверителна връзка с учители, членове на екипа за личностна подкрепа и непедагогически персонал. Всичко това ще могне за успешното им преминаване от предучилищно в училищно образование и продължането на образованието им системата на общообразователните училища. И обратното &ndash; смяната на училището може да доведе до застой и дори до регрес в поведението и развитието на децата с увреждания. <strong>Това особено се отнася за децата с аутизъм,</strong> тъй като при тях адаптацият към средата, социализацията и изграждането на доверителна връзка е дълъг процес, който може да отнеме години. <br /> </li>
+					<li>Напълно е възможно в <strong>даден район да няма училище, което да предоставя &bdquo;разумни улеснения&ldquo; и&nbsp; &bdquo;ефективни мерки за индивидуална подкрепа в среда&ldquo;, </strong>отговарящи на индивидуалните потребности на дете с увреждане с постоянен/настоящ адрес в този район. Например, възможно е да няма изградена рампа и асансьор в нито едно училище, чиито прилежащ район съвпада с постоянният/настоящият адрес на дете в инвалидна количка. Така родителят на това дете, ще е принуден, поради независещи от него обстоятелства, да&nbsp; потърси училище с изградена достъпна среда в друг район. Шансовете за прием на детето му в училище с изградена достъпна среда, но в различен район са нищожни тъй като детето попада в 4-та група според водещия критерий. Създават се условия за <strong>непряка дискриминация</strong>. <br /> </li>
+					<li>Напълно е възможно измежду всички училища, чиито прилежащи райони включват постоянния/настоящ адрес на дете с увреждане да <strong>има само едно училище</strong>, което предоставя&nbsp; &bdquo;разумни улеснения&ldquo; и&nbsp; &bdquo;ефективни мерки за индивидуална подкрепа в среда&ldquo;, отговарящи на индивидуалните му потребности. Дори и детето да попада в първа група по водещия критерии,&nbsp; <strong>ниският брой точки (5 т.)&nbsp; според допълнителния критерий &bdquo;Дете с трайни увреждания&ldquo;</strong>, създава потенциална възможност детето да не бъде класирано в това единствено възможно за него училище, ако то не отговаря и на допълнителните критерии с по-висок брой точки. <br /> Подобна ситуация е напълно възможна дори когато училищата, които предоставят &bdquo;разумни улеснения&ldquo; и ефективни мерки за индивидуална подкрепа в среда&ldquo;&nbsp; са повече от едно, но според водещият критерий детето попада във втора или трета група.</li>
+				</ol>
+				<p>Считаме, че разписаните критерии за прием на деца в първи клас в проекта на системата за прием на ученици в първи клас в общинските училища на територията на Столична община<strong> ще бъдат справедливи</strong> и за децата с увреждания в един бъдещ момент, когато:</p>
+				<ol>
+					<li>Няма деца с увреждания в заварено положение, обучавали се в предучилищна група в училища, чиито прилежащи райони не включват постоянният/настоящият им адрес;</li>
+					<li>Всички училища на територията на Столична община, предоставят &bdquo;разумни улеснения&ldquo; и &bdquo;ефективни мерки за индивидуална подкрепа в среда,&ldquo; отговарящи на различните индивидуални потребности на деца с увреждания.</li>
+				</ol>
+				<p>За съжаление, все още сме в периода на &bdquo;първите стъпки&ldquo; в приобщаващото образование и изграждането на подкрепяща и достъпна училищна среда.</p>
+				<p><br /> С оглед гарантирането на <strong>справедлив прием </strong>и за деца с увреждания, <strong>настояваме</strong>:</p>
+				<ol>
+					<li>Основавайки се на завареното положение на деца с увреждания, записани в подготвителни групи в училища през 2016/2017 и 2017/2018 учебни години, <strong>настояваме за учебните 2018/2019 и 2019/2020,&nbsp; приемът в първи клас на&nbsp; деца с увреждания, в училището в което те са завършили в подготвителна група да става с абсолютно предимство, без прилагане на каквито и да е критерии. <br /> <br /> </strong></li>
+					<li>В случаите в които всички училища, чиито прилежащи райони включват постояненния/настоящия адрес на дете с увреждане, <strong>не предоставят</strong> &bdquo;разумни улеснения&ldquo; и &bdquo;ефективни мерки за индивидуална подкрепа в среда&ldquo;, отговарящи на индивидуалните му потребности,&nbsp; <strong>да се предвиди механизъм за записване на съответното дете в училище, удовлетворяващо индивидуалните му потребности в друг най-удобен за детето район в съответствие със желанието на родителя/настойника на детето. </strong>&nbsp;<br /> &nbsp;</li>
+					<li><strong>Най-много точки</strong> от допълнителните критерии да се дадат на критерия &bdquo;Дете с трайни увреждания над 50%&ldquo;.<br /> </li>
+					<li>В случаите в които <strong>само едно</strong> от всички училища, чиито прилежащи райони включват постоянния/настоящия адрес на дете с увреждане, предоставя&nbsp; &bdquo;разумни улеснения&ldquo; и&nbsp; &bdquo;ефективни мерки за индивидуална подкрепа в среда&ldquo;, отговарящи на индивидуалните му потребности,&nbsp; <strong>да се предвиди механизъм за записване на съответното дете в това училище</strong>, незаисимо от групата, в която детето попада съгласно водещия критерий и независимо от допълнителните критерии. <br /> </li>
+					<li>В случаите в които <strong>повече от едно, но не всички училища</strong>, чиито прилежащи райони включват постоянния/настоящоя адрес на дете с увреждане, предоставя&nbsp; &bdquo;разумни улеснения&ldquo; и&nbsp; &bdquo;ефективни мерки за индивидуална подкрепа в среда&ldquo;, отговарящи на индивидуалните му потребности<strong>,&nbsp; да се предвиди механизъм за записване на съответното дете в едно от тези училища</strong>, независимо от групата в която детето попада съгласно водещия критерий и независимо от допълнителните критерии.<br /> </li>
+				</ol>
+				<p>Надяваме се,&nbsp; при въвеждането на новата система&nbsp; за прием на ученици в първи клас в общинските училища на територията на Столична община, да се вземат предвид гореизложените опасения и факти от обективната действителност, така че на всяко детете с увреждане на територията на Столична община, да бъде бъде осигурен достъп до общообразователно училище, чиято среда е най-подходяща и възможно най-пригодена към неговите потребности.<br /> </p>
+				<p>01.02.2018</p>
+				<p style="text-align: center;"><strong><br /> Становище на Сдружение &bdquo;Защита на правата на хората с аутизъм в България&ldquo;</strong></p>
+				<p style="text-align: center;"><strong><br /> Относн</strong><strong>o</strong><strong>: Необходимост от промени в осигуряването на допълнителна подкрепа на деца и ученици със специални образователни изисквания</strong></p>
+				<p><strong>&nbsp;</strong></p>
+				<p>Сдружение &bdquo;Защита на правата на хората с аутизъм в България&ldquo; е неправителствена организация&nbsp; с нестопанска цел за осъществяване на дейност в обществена полза. Членовете на сдружението са предимно родители на деца с разстройство от аутистичния спектър и дейността ни изцяло е насочена към защита на правата на хората с аутизъм в България.</p>
+				<p>Високо ценим усилията и работата на Министерството на образованието и науката за въвеждане на приобщаващото образование във всяко българско училище и детска градина. &nbsp;Като родители на деца със специални потребности сме наясно със трудностите и &bdquo;крепостите&ldquo; които трябва да се преодолеят за да стане приобщаващото образование реалност,&nbsp; гарантираща равен достъп до образование на всяко дете. От една страна, това са ограничените ресурси &ndash; кадрови и финансови, от друга страна е стремежът на някои институции в системата на образованието да запазят статуквото.&nbsp;</p>
+				<p>Една година след влизането в сила на Закона за предучилищното и училищното образование, става ясно, че ресурсите в образователната система не се използват по възможно най-ефективния начин. Освен това, все още рядко се разпознават наличните ресурси извън образователната система, които ще дадат допълнителна възможност да се повиши ефективността на процеса по приобщаване на деца/ученици със специални образователни потребности.</p>
+				<p>Към момента, законът предвижда допълнителната подкрепа за деца/ученици&nbsp; със специални образователни потребности в училищата и детските градини да се осъществява от психолог, педагогически съветник, логопед, ресурсен учител, социален работник в някои случаи от помощник на учителя.</p>
+				<p>Съществената и в същото време крайно недостатъчна подкрепа за децата ни е тази, предоставяна от ресурсните учители, независимо дали те са назначени в училища/детски градини, или учебното заведение ползва такъв специалист от регионалния център за подкрепа на процеса по приобщаващо образование. &nbsp;Поради факта, че ресурсните учители са дефицитен ресурс и преди приемането на ЗПУО, и сега техните услуги се свеждат средно до осигуряването на 2 до 3 учебни часа ресурсно подпомагане на седмица. През изминалата година бяхме свидетели на случаи при които в училища с 20 и повече ученици със специални образователни потребности се назначава само един ресурсен учител. Това обяснява изкуственото занижаване на броя необходими часове ресурсно подпомагане в плана за подкрепа на всяко дете/ученик. Водещ критерий при определянето на броя часове за ресурсно подпомагане в плана за подкрепа стана не обективната потребност детето/ученика, а възможността тя да бъде осигурена от съответните институции в системата на образованието &ndash; учебното заведение или регионалния център за подкрепа на процеса на приобщаващо образование. &nbsp;Опасяваме се, че с предложените промени в проекта на Наредба за приобщаващо образование, фиксиращи максимума на брой деца/ученици в групата на един ресурсен учител на 12, ситуацията няма да се подобри драстично. Очакванията ни са, че директорите на училищата ще се стремят да уплътнят групата на ресурсните учители до 12 деца, изкуствено намалявайки броя на необходите им часове ресурсно подпомагане. В този случай простите сметки показват, че средно едно дете/ученик със специални образователни потребности ще има достъп до ресурсно подпомагане за 3 учебни часа седмично.</p>
+				<p>&nbsp;Поради дефицита на ресурсни учители е и на практика невъзможно се се смени ресурсният учител, когато между него и детето/ученикът със специални образователни потребности, не може да се изгради доверителна връзка. В подобна ситуация, работата на ресурсния учител е в най-добрия случай неефективна, а често може да доведе и до нежелани промени в поведението на детето/ученика.</p>
+				<p>Законът е предвидил броят на на децата или учениците със специални образователни потребности в групите в детските градини или паралелките в училище да не надвишава 3. Освен в случаите, когато на територията на населеното място няма друга група или паралелка, която да осигурява същото по вид образование. Когато броят на децата/учениците със специални образователни потебности в дадена група/паралелка надхвърли 3, се предоставя възможността в детската градина /училището да се назначи помощник на учителя, чиято работа да е насочена към подкрепата на децата/учениците със специални образователни потребности във въпросната група/паралелка.</p>
+				<p>Законът предвижда и възможността в плана за подкрепа на дете или ученик да бъде определен и помощник на учителя. Наредбата за приобщаващо образование конкретизира и случаите съобразени с индивидуалните потребности на децата/учениците при които се допуска определянето на такава подкрепа:</p>
+				<ul>
+					<li>при сензорни и/или неврологични увреждания и при множество увреждания</li>
+					<li>при прояви от аутистичния спектър</li>
+					<li>при емоционални и/или поведенчески затруднения</li>
+					<li>при наличие на риск</li>
+				</ul>
+				<p>Въпреки осъзнатата нужда от индивидуална подкрепа за децата ни в училищна среда, ние разбираме, че подкрепата от помощник на учителя, в много редки и изключителни ситуации би се реализирала като такава. Това са случаите, при които в паралелката или групата има само един ученик или дете със специални образователни потребности. С промените, които се предлагат по отношение на условията за назначавене на помощник на учителя в учебното заведение &ndash; наличие на повече&nbsp; 3 деца/ученици със специални образователни потребности в детската градина или училището, напрактика не само, че се губи напълно минималната възможност дете/ученик, нуждаещ се от постоянна персонална подкрепа да ползва таква от помощник на учителя, а и става невъзможно за заемащия тази длъжност да изпълнява всичките си задължения. Няма как един човек, да подпомага едновременно децата/учениците в различни паралелки и групи. &nbsp;Освен това, така предложените промени не следват смисъла и идеята на Закона за предучилищно и училищо образование, а именно помощник на учителя да оказва необходимата подкрепа в групата или паралелката в която се обучават повече от три деца/ученици със специални образователни потребности.</p>
+				<p>Все по-често излизат публикации на изследвания, показващи че деца със специални образователни потребности, считани до скоро за трудно обучаеми, каквито са децата с разстройсто от аутистичния спектър, при подходяща подкрепа демонстрират равни, а в някои случаи и по-високи, академични умения спрямо връстниците им. Подкрепата, която получават тези деца в училищна среда е персонална за определено дете и се осъществява от човек с когото детето/ученика е изградило доверителна връзка и е признат от него за авторитет.</p>
+				<p><strong>Все повече родители на деца с аутизъм, множествени увреждания, емоционални и поведенчески отколнения, осъзнават нуждата &nbsp;от постоянна персонална подкрепа на децата им в училищна среда. Тези родители се ангажират да осигурят придружител на детето си</strong>. За целта или наемат външен на семейството човек или функциите на придружител на детето със СОП се изпълняват от член на семейството му. След като са осигурили придружител, родителите се опитват да намерят да намерят училище/детска градина в което се допускат придружители на ученици/деца със специални образователни потребности и да е възможно най-близко до адреса на който живят им.</p>
+				<p>Нуждата и ползите от такава подкрепа за деца и ученици с изброените проблеми, започва да се разпознава и от някои директори и общообразователни учители в училища и детски градини. <strong>Те от своя страна настояват родителите на детето/ученика да му осигурят придружител. &nbsp;</strong></p>
+				<p>Въпреки, че на практика <strong>този вид подкрепа се използва</strong> в образователната система, тя все още <strong>не е нормативно регламентирана</strong>, което е предпоставка за напрежение между родителите,&nbsp; учителите и останалите участници в образователния процес.</p>
+				<p>Какви ще са ползите от регламентирането на този вид подкрепа:</p>
+				<ol>
+					<li>Детето/ученикът ползващ подкрепата на придружител, ще изпитва чуство на сигурност, породена от наличието на постоянна подкрепа и разбиране на неговите потребности. Пак поради наличието на постоянна подкрепа, академичините му умения ще нарастнат значително по-бързо. Приобщаването му към съучениците му ще се случи значително по-бързо.</li>
+					<li>Общообразователният учител в групата/паралелката ще се чувства подкрепен, тъй като няма да му се налага да обръща специално внимание на детето/ученика със специални образователни потребности. Наличието на персонална подкрепа, ще редуцира значително случаите на проява на нежелано поведение от страна на детето/ученика, а при възникването на такова поведение, то ще бъде овладяно от придружителя му, без това да доведе до прекъсване на учебния процес. Общообразователният учител ще има възможност на практика да наблюдава как се работи с конкретния ученик/дете със съответния проблем.</li>
+					<li>Регламентирането на този вид подкрепа може да доведе до освобождаване на часове ресурсно подпомагане, тъй като на практика подкрепата осъществявана от ресурсни учители се дублира с подкрепата осъществявана от придружитела на детето/ученика със специални потребности. Освободените ресурсни часове могат да бъдат пренасочени към подкрепа на останалите деца със специални образователни потребности, които не ползват подкрепа осигурена от придружител.</li>
+					<li>Регламентирането на подкрепата от персонален придружител, ще доведе и до отпадане на необходимостта от подкрепа на детето/ученика от помощник на учителя. Тази подкрепа ще може да се пренасочи към други деца/ученици, чиито родители не са в състояние да осигурят придружител на детето.</li>
+					<li>Тъй като родителите се ангажират с осигуряването на придружител на детето си, в много случай ще отпадне проблемът с невъзможността за изграждане на доверителна връзка между детето и придружителя му. Ако все пак това се случи, то тогава няма проблем родителят да осигури друг придружител.</li>
+					<li>Родителите ще се чустват спокойни и сигурни, че децата им няма да попаднат в ситуации, застрашаващи живота и здравето им.</li>
+				</ol>
+				<p>&nbsp;</p>
+				<p>Държим да подчертаем, че <strong>не настояваме</strong> персоналният придружител на ученици/деца със специални образователни потребности&nbsp; да се осигурява от училището, респ. държавата. <strong>Ангажиментът за осигуряването на персонален придружител, както е и в момента, остава изцяло на родителя/настойника на детето.&nbsp; </strong>Наясно сме, че не всички родители на деца, нуждаещи се от персонална подкрепа в училище/детска градина имат възможност да осигурят придружител на детето си, затова предлагаме тази вид подкрепа да се <strong>определя при заявено желание от страна на родителя.</strong></p>
+				<p><strong>&nbsp;</strong></p>
+				<p>Настояваме подкрепа на деца/ученици със СОП, осъществявана от персонален придружител да бъде регламентирана като се вземе предвид:</p>
+				<ul>
+					<li>Нужда от персонална подкрепа от придружител могат да имат деца/ученици със сензорни и/или неврологични увреждания, множество увреждания, разстройство от аутистичния спектър, емоционални и/или поведенчески затруднения;</li>
+					<li>Нуждата от персонална подкрепа от придружител се доказва на база на оценка от проследяващия състоянието на детето лекар или психолог. Родителят настойникът на детето се ангажира с предоставянето на такава оценка;</li>
+					<li>Придружител на детето/ученикът се осигурява от родителите/настойниците му;</li>
+					<li>Подкрепата от персонален асистент се вписва в плана за подкрепа на детето/ученика;</li>
+					<li>Придужителят е член на екипа за личностна подкрепа на детето/ученика;</li>
+				</ul>
+				<p>&nbsp;</p>
+				<p>Отговорности към придружителя на дете/ученик със специални оразователни потребности:</p>
+				<ul>
+					<li>Придружителят осъществява дейността си съобразно инструкциите на учителите на детето или ученика със специални образователни потребности и има следните функции:</li>
+					<li>участва в работата на екипа за подкрепа за личностно развитие на дете или ученик със специални образователни потребности;</li>
+					<li>познава индивидуалните учебни програми на ученика;</li>
+					<li>адаптира учебното съсържание спрямо нуждите на детето/ученика;</li>
+					<li>подготвя необходимите образователни материали;</li>
+					<li>подпомага изпълнението на дейности, определени в плана за подкрепа на детето ученика;</li>
+					<li>подпомага работата на учителите за развитие на адаптивните способности на детето/ученика и учениците към образователната среда и за постигане на неговата независимост;</li>
+					<li>подпомага придвижването на детето/ученика със специални образователни потребности в сградата на детската градина или на училището;</li>
+					<li>подпомага осигуряването на безопасни условия за обучение, като подкрепя учителя при осигуряването на реда в групата или в класната стая в случай на проблемно поведение на детето/ ученика;</li>
+					<li>подпомага овладяването на хигиенни навици и самообслужването на детето/ ученика в детската градина или училището;</li>
+					<li>придружава детето/ученика в организирани от учебното заведение извънкласни мероприятия;</li>
+				</ul>
+				<p>В заключение, изразяваме опасенията си, че и с така предложените промени на Наредбата за приобщаващо образование, не очакваме подобряване на предлаганата подкрепа за децата ни, нито в количествен, нито в качествен аспект. Надяваме се с общи усилия нормативната уредба да се промени така, че да гарантира обективност в оценяването на индивидуалните им потребности и&nbsp; предоставянето на адекватна за тези потребности подкрепа във всички учебните заведения.</p>
+				<p>&nbsp;</p>
+				<p>13.09.2017 г.</p>
+				<p>&nbsp;</p>
+				<p>&nbsp;</p>
+			</section>
+			<section id="about-us" style="display:none">
+				<p>Сдружение "Защита на правата на хората с аутизъм в България" е учредено от родители и терапевти на деца с аутисъм с една основна мисия - заедно да защитавмае правата на хората с аутизъм.</p>
+			</section>
+			<section id="mission" style="display:none">
+				<p>Нашата мисия е една - да защитаваме правата на хората с аутизъм в България.<br />Целите на сдружението ни са:</p>
+				<ol>
+					<li>Да инициира и участва в обществени дебати и диалог с институциите във връзка със законови и нормативни уредби касаещи начина на живот и правата на хората с разстройство от аутистичния спектър.</li>
+					<li>Въвеждане на принципа за равноправно партньорство между държавните органи, организациите на терапевти, неправителствени организации, работещи в полза на хората с аутизъм при изработване и приемане на стратегии, критерии и норми, политики и практики с цел подобряване на живота на хората с разстройство от аутистичния спектър</li>
+					<li>Да подпомага подобряването на нормативната уредба с цел подобряване живота на хората с разстройство от аутистичния спектър и защитаване на правата им, чрез участие в изогвянето на проекти за изменения и допълнения в нормативни актове.</li>
+					<li>Да осъществява връзка между хората с разстройство от аутистичния спектър и (или) техните настойници и институциите в страната по отношение на възникнали проблеми между двете страни.</li>
+					<li>Да предлага независима експертна оценка за състоянието на проблемите в живота на хората с разстройство от аутистичния спектър.</li>
+					<li>Да информира обществото по въпросите касаещи начина на живот и правата на хората с разстройство от аутистичния спектър.</li>
+					<li>Да представлява хората с разстройство от аутистичния спектър или техните настойници при съдебен спор с трета страна.</li>
+					<li>Да организира и участва в инициативи, целящи подобряването на качеството на живот на хората с разстройство от аутистичния спектър.</li>
+				</ol>
+			</section>
+			<section id="contacts" style="display:none">
+				<p>Адрес: гр София; ул. "Странжа" 140; вх. А; ап.1;&nbsp;<br />телефон: 0887 22 11 11 ;<br />e-mail: autism.advocate.bulgaria@gmail.com</p>
+				<p>&nbsp;</p>
+			</section>
+		</div>
+	</div>
+</html>
