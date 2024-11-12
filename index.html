@@ -202,19 +202,26 @@
 	<script>
 		window.addEventListener('hashchange', () => {
 		const hash = window.location.hash;
-
-		// Hide all sections
-		const sections = document.querySelectorAll('section');
-		sections.forEach(section => {
-			section.style.display = 'none';
+			showSection(hash.substring(1));
 		});
 
-		// Show the selected section
-		const targetSection = document.getElementById(hash.substring(1));
-		if (targetSection) {
-			targetSection.style.display = 'block';
+		function showSection(section) {
+			// Hide all sections
+			const sections = document.querySelectorAll('section');
+			sections.forEach(section => {
+				section.style.display = 'none';
+			});
+
+			// Show the selected section
+			const targetSection = document.getElementById(section);
+			if (targetSection) {
+				targetSection.style.display = 'block';
+			}
 		}
-		});
+
+		window.onload = function() {
+			showSection('activity');
+  		};
 	</script>
 </head>
 <body>
